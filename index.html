@@ -1,0 +1,60 @@
+<html>
+<body>
+    <h3>Loan Approval Prediction Form</h3>
+<div>
+  <form action="/result" method="POST">
+    <label>Gender</label>
+    <select id="Gender" name="Gender">
+        <option value="0"> Female</option>
+        <option value="1"> Male</option>
+    </select>
+      <br>
+      <label> Education</label>
+      <select id="Education" name="Education">
+          <option value="0"> Graduate</option>
+          <option value="1"> Non-Graduate</option>
+      </select>
+      <br>
+          <label> Married</option>
+              <select id="Married" name="Married">
+              <option value="0">No</option>
+              <option value="1"> Yes</option>
+              </select>
+      <br>
+          <label> Self-Employed</label>
+              <select id="Self_Employed" name="Self_Employed">
+              <option value="0"> No</option>
+              <option value="1"> Yes</option>
+              </select>
+      <br>
+              <label> Number of Dependencies </label>
+              <input type="text" id="Dependents" name="Dependents">
+      <br>
+              <label> Credit History (0-1)</label>
+              <input type="text" id="Credit_History" name="Credit_History">
+      <br>
+              <label> Property Area </label>
+              <select id="Property_Area" name="Property_Area">
+              <option value="0"> Rural</option>
+              <option value="1"> Semi-Urban</option>
+              <option value="2"> Urban </option>
+              </select>
+      <br>
+              <label> Applicant Income($) </label>
+              <input type="number" id="ApplicantIncome" name="ApplicantIncome">
+
+      <br>
+              <label> Co-Applicant Income($)</label>
+              <input type="number" id="CoapplicantIncome" name="CoapplicantIncome">
+      <br>
+              <label> Loan Amount($)</label>
+              <input type="number" id="LoanAmount" name="LoanAmount">
+      <br>
+              <label> Loan Amount Term(In Years)</label>
+              <input type="number" id="Loan_Amount_Term" name="Loan_Amount_Term">
+      <br>
+              <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>
